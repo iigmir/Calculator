@@ -1,0 +1,31 @@
+.app
+{
+    width: 50vw;
+    min-height: 50vh;
+    margin: 0;
+    padding: 1rem;
+    background-color: aqua;
+}
+
+.app .screen
+{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: right;
+    color: greenyellow;
+    background-color: black;
+}
+
+.app .panel
+{
+    display: grid;
+    grid-auto-rows: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0.5rem;
+}
+
+.app .panel .btn
+{
+    margin: 0.1rem;
+    border: 0;
+}
